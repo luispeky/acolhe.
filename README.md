@@ -37,7 +37,7 @@ npm run preview
 ## Publicação automática no GitHub Pages
 
 O workflow [.github/workflows/deploy.yml](.github/workflows/deploy.yml) compila e publica
-o site sempre que uma alteração é enviada à branch `main`. Também pode ser iniciado
+o site sempre que uma alteração é enviada à branch `princip`. Também pode ser iniciado
 manualmente pela aba **Actions** do GitHub.
 
 Na primeira configuração do repositório, habilite **Settings → Pages → Build and
