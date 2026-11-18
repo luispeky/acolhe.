@@ -266,28 +266,21 @@ function App() {
             </div>
           </div>
 
-          <div className="hero-art" aria-label="Ilustração de cuidado e tranquilidade" role="img">
-            <div className="art-sun" />
-            <div className="art-orbit orbit-one" />
-            <div className="art-orbit orbit-two" />
-            <div className="art-leaf leaf-one"><Leaf size={52} strokeWidth={1.2} /></div>
-            <div className="art-leaf leaf-two"><Leaf size={35} strokeWidth={1.2} /></div>
-            <div className="art-person">
-              <div className="person-hair" />
-              <div className="person-face"><span /><span /></div>
-              <div className="person-body" />
-              <div className="person-arm" />
+          <div className="hero-visual">
+            <img
+              className="hero-photo"
+              src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1200&q=85"
+              alt="Pessoa em uma pausa tranquila para respirar em meio à natureza"
+            />
+            <div className="hero-photo-shade" />
+            <div className="hero-quote-card">
+              <span>UM ESPAÇO SEGURO</span>
+              <strong>Respire. Se acolha.<br />Recomece no seu tempo.</strong>
             </div>
-            <div className="art-caption caption-top">
-              <span className="caption-heart"><Heart size={15} fill="currentColor" /></span>
-              <span>Você importa</span>
-            </div>
-            <div className="art-caption caption-bottom">
-              <span className="caption-sparkle"><Sparkles size={16} /></span>
+            <div className="hero-photo-caption">
+              <Heart size={15} fill="currentColor" />
               <span>Um dia de cada vez</span>
             </div>
-            <Sparkles className="art-flower flower-one" size={25} aria-hidden="true" />
-            <Sparkles className="art-flower flower-two" size={17} aria-hidden="true" />
           </div>
           <div className="hero-scroll" aria-hidden="true"><span /> role para continuar</div>
         </section>
@@ -330,6 +323,12 @@ function App() {
 
         <section className="intro-section page-width" id="sobre">
           <div className="intro-art">
+            <img
+              className="intro-photo"
+              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=1000&q=85"
+              alt="Retrato acolhedor de uma mulher sorrindo"
+              loading="lazy"
+            />
             <div className="intro-card">
               <div className="intro-card-top"><span>LEMBRETE DE HOJE</span><Heart size={17} /></div>
               <p>Você não precisa ter tudo resolvido para merecer cuidado.</p>
